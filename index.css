@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background-color: #1b244a;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 40px;
+}
+
+.scoreboard {
+  display: flex;
+  gap: 100px;
+}
+
+.team h3 {
+  color: #eeeeee;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.score-box {
+  background-color: #080001;
+  width: 150px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 0 auto 20px;
+}
+
+.score-box h2 {
+  color: #f94f6d;
+  font-size: 60px;
+  margin: 0;
+  font-family: "Cursed Timer ULiL", sans-serif;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #9aabd8;
+  background: transparent;
+  color: #9aabd8;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset button {
+  width: 120px;
+  height: 40px;
+}
