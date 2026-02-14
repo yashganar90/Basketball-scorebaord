@@ -25,8 +25,9 @@ The application uses:
 - `textContent` to reflect score changes on the screen
 
 Each button triggers a JavaScript function that:
-1. Updates the corresponding score variable
-2. Updates the displayed score in the UI
+
+1. Updates the corresponding score variable  
+2. Updates the displayed score in the UI  
 
 The reset function sets both scores back to 0 and updates the display.
 
@@ -34,11 +35,13 @@ The reset function sets both scores back to 0 and updates the display.
 
 ## 📂 Project Structure
 
+```text
 basketball_scoreboard
 │
 ├── index.html
 ├── index.css
 └── index.js
+```
 
 ---
 
@@ -51,7 +54,45 @@ basketball_scoreboard
 Example logic:
 
 ```javascript
+let guest_score = 0;
+let guest_score_point = document.getElementById("guest-score");
+
 function guest_increment_1() {
   guest_score += 1;
   guest_score_point.textContent = guest_score;
 }
+```
+
+---
+
+## 🛠 Technologies Used
+
+- HTML
+- CSS
+- JavaScript (Vanilla JS)
+
+---
+
+## 🎯 Learning Goals
+
+This project helped practice:
+
+- DOM manipulation
+- Event handling
+- Variables and functions
+- Updating UI dynamically with JavaScript
+
+---
+
+## 📌 Future Improvements
+
+- Highlight the leading team
+- Add timer functionality
+- Refactor repeated increment functions into a reusable function
+- Improve UI styling
+
+---
+
+## 👤 Author
+
+Yash Ganar
