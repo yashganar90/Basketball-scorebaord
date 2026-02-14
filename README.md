@@ -34,7 +34,7 @@ The reset function sets both scores back to 0 and updates the display.
 
 ## 📂 Project Structure
 
-basketball_scoreboard/
+basketball_scoreboard
 │
 ├── index.html
 ├── index.css
